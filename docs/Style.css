@@ -87,6 +87,14 @@ ul {
   cursor: pointer;
 }
 
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
 .skills-list li:first-child {
   background-color: rgb(210, 115, 6);
 }
