@@ -77,8 +77,13 @@ ul {
   font-size: 0.9rem;
 }
 
+.boton-centro {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 #Dark-mode {
-  margin-top: 10px;
   padding: 10px 20px;
   background-color: #2d014d;
   color: #fff;
@@ -131,4 +136,26 @@ body.modo-oscuro .skills-list li {
 
 body.modo-oscuro .skills-list li:first-child {
   background-color: #ff884d;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .cv-container {
+    padding: 10px;
+    box-shadow: none;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .foto-perfil {
+    width: 80px;
+    height: 80px;
+  }
+  .skills-list {
+    flex-direction: column;
+    gap: 5px;
+  }
+  body {
+    padding: 5px;
+  }
 }
